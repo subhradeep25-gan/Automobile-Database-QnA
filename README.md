@@ -51,12 +51,14 @@ streamlit run main.py
 2.The web app will open in your browser where you can ask questions
 
 ## Sample Questions
-
+  - What is the total quantity sold and revenue for each product in the 'Vintage Cars' product line?
+  - Find the average credit limit for customers in the 'USA' country.
+  - Show the total revenue generated from orders shipped to the 'Germany' country.
+  - Find the top 5 customers with the highest credit limits.
   
 ## Project Structure
 
 - main.py: The main Streamlit application script.
 - langchain_helper.py: This has all the langchain code
-- requirements.txt: A list of required Python packages for the project.
-- few_shots.py: Contains few shot prompts
-- .env: Configuration file for storing your Google API key.
+- formated_few_shot.py: Contains few shot prompts
+- .env: Configuration file for storing your OpenAI API key.
