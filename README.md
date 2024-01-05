@@ -5,6 +5,11 @@ This is an end to end LLM project based on OpenAI and Langchain. We are building
 User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and
 then executing that query on MySQL database. 
 # Database
+The classicmodels database is a retailer of scale models of classic cars. It contains typical business data, including information about customers, products, sales orders, sales order line items, and more. The system is intelligent enough to generate accurate queries for given question and execute them on MySQL database.
+The link to the database [classicmodels](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/).
+A store manager may ask questions such as:
+  - Retrieve the details of customers who have not placed any orders.
+  - Find the total number of orders placed in the year 2001.
 The system is intelligent enough to generate accurate queries for given question and execute them on MySQL database
 
 ## Project Highlights
